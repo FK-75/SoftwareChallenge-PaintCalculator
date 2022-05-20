@@ -9,7 +9,8 @@ areaOfFloor = round((length * width),2)
 ### Amount of paint required to paint the walls
 
 ## 1 litre = 12 m^2 of coverage
-litresOfPaint = round(((length*height + width*height)/6),2) ## Assuming room is rectangular
+litresOfPaint = round(((length*height + width*height)/6),2) 
+## Assuming room is rectangular
 # if assuming a room is rectangular, total area of walls = 2*(length*height + width*height)
 # and since 1l = 12m^2 total amount of paint for walls = total area of walls/12 = 2*(length*height + width*height)/12 = (length*height + width*height)/6 
 
